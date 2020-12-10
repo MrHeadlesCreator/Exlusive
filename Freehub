@@ -1,0 +1,293 @@
+-- Obviously this is still a free script.
+-- Just enjoy it.
+-- Hub creators below:
+-- Made by GameGuardBot
+-- Made by Exsploit2020
+
+-- Scripts are free, no credits will be shown here.
+
+local ScreenGui = Instance.new("ScreenGui")
+local BarFrame = Instance.new("ImageButton")
+local MenuFrame = Instance.new("ImageButton")
+local KAT_Frame = Instance.new("ImageButton")
+local KatButton = Instance.new("TextButton")
+local KillallButton = Instance.new("TextButton")
+local LumberTycoon_Frame = Instance.new("ImageButton")
+local L2Button = Instance.new("TextButton")
+local Islands_Frame = Instance.new("ImageButton")
+local IslandsButton = Instance.new("TextButton")
+local WorldZero_Frame = Instance.new("ImageButton")
+local WorldZeroButton = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+BarFrame.Name = "BarFrame"
+BarFrame.Parent = ScreenGui
+BarFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BarFrame.BackgroundTransparency = 1.000
+BarFrame.Position = UDim2.new(0.452604175, 0, 2, 0)
+BarFrame.Size = UDim2.new(0, 181, 0, 34)
+BarFrame.Image = "rbxassetid://2790382281"
+BarFrame.ImageColor3 = Color3.fromRGB(255, 149, 0)
+BarFrame.ScaleType = Enum.ScaleType.Slice
+BarFrame.SliceCenter = Rect.new(4, 4, 252, 252)
+
+MenuFrame.Name = "MenuFrame"
+MenuFrame.Parent = BarFrame
+MenuFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MenuFrame.BackgroundTransparency = 1.000
+MenuFrame.Position = UDim2.new(-0.000877648592, 0, 1.19064784, 0)
+MenuFrame.Size = UDim2.new(0, 181, 0, 268)
+MenuFrame.Image = "rbxassetid://2790382281"
+MenuFrame.ImageColor3 = Color3.fromRGB(35, 35, 35)
+MenuFrame.ScaleType = Enum.ScaleType.Slice
+MenuFrame.SliceCenter = Rect.new(4, 4, 252, 252)
+
+KAT_Frame.Name = "KAT_Frame"
+KAT_Frame.Parent = MenuFrame
+KAT_Frame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+KAT_Frame.BackgroundTransparency = 1.000
+KAT_Frame.Position = UDim2.new(0.0607734807, 0, 0.100746274, 0)
+KAT_Frame.Size = UDim2.new(0, 158, 0, 48)
+KAT_Frame.Image = "rbxassetid://2790389767"
+KAT_Frame.ImageColor3 = Color3.fromRGB(255, 149, 0)
+KAT_Frame.ScaleType = Enum.ScaleType.Slice
+KAT_Frame.SliceCenter = Rect.new(8, 8, 248, 248)
+
+KatButton.Name = "KatButton"
+KatButton.Parent = KAT_Frame
+KatButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KatButton.BackgroundTransparency = 1.000
+KatButton.Size = UDim2.new(0, 158, 0, 48)
+KatButton.Font = Enum.Font.SourceSansBold
+KatButton.Text = "KAT"
+KatButton.TextColor3 = Color3.fromRGB(184, 101, 0)
+KatButton.TextScaled = true
+KatButton.TextSize = 14.000
+KatButton.TextWrapped = true
+
+KillallButton.Name = "KillallButton"
+KillallButton.Parent = KAT_Frame
+KillallButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KillallButton.Position = UDim2.new(5.91772127, 0, -5.22916603, 0)
+KillallButton.Size = UDim2.new(0, 87, 0, 54)
+KillallButton.Visible = false
+KillallButton.Font = Enum.Font.SourceSansBold
+KillallButton.Text = "KILL ALL (KAT)"
+KillallButton.TextColor3 = Color3.fromRGB(184, 101, 0)
+KillallButton.TextScaled = true
+KillallButton.TextSize = 14.000
+KillallButton.TextWrapped = true
+
+LumberTycoon_Frame.Name = "LumberTycoon_Frame"
+LumberTycoon_Frame.Parent = MenuFrame
+LumberTycoon_Frame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+LumberTycoon_Frame.BackgroundTransparency = 1.000
+LumberTycoon_Frame.Position = UDim2.new(0.0607734807, 0, 0.305970132, 0)
+LumberTycoon_Frame.Size = UDim2.new(0, 158, 0, 48)
+LumberTycoon_Frame.Image = "rbxassetid://2790389767"
+LumberTycoon_Frame.ImageColor3 = Color3.fromRGB(255, 149, 0)
+LumberTycoon_Frame.ScaleType = Enum.ScaleType.Slice
+LumberTycoon_Frame.SliceCenter = Rect.new(8, 8, 248, 248)
+
+L2Button.Name = "L2Button"
+L2Button.Parent = LumberTycoon_Frame
+L2Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+L2Button.BackgroundTransparency = 1.000
+L2Button.Size = UDim2.new(0, 158, 0, 48)
+L2Button.Font = Enum.Font.SourceSansBold
+L2Button.Text = "LT2"
+L2Button.TextColor3 = Color3.fromRGB(184, 101, 0)
+L2Button.TextScaled = true
+L2Button.TextSize = 14.000
+L2Button.TextWrapped = true
+
+Islands_Frame.Name = "Islands_Frame"
+Islands_Frame.Parent = MenuFrame
+Islands_Frame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Islands_Frame.BackgroundTransparency = 1.000
+Islands_Frame.Position = UDim2.new(0.0607734807, 0, 0.511193991, 0)
+Islands_Frame.Size = UDim2.new(0, 158, 0, 48)
+Islands_Frame.Image = "rbxassetid://2790389767"
+Islands_Frame.ImageColor3 = Color3.fromRGB(255, 149, 0)
+Islands_Frame.ScaleType = Enum.ScaleType.Slice
+Islands_Frame.SliceCenter = Rect.new(8, 8, 248, 248)
+
+IslandsButton.Name = "IslandsButton"
+IslandsButton.Parent = Islands_Frame
+IslandsButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+IslandsButton.BackgroundTransparency = 1.000
+IslandsButton.Size = UDim2.new(0, 158, 0, 48)
+IslandsButton.Font = Enum.Font.SourceSansBold
+IslandsButton.Text = "Islands"
+IslandsButton.TextColor3 = Color3.fromRGB(184, 101, 0)
+IslandsButton.TextScaled = true
+IslandsButton.TextSize = 14.000
+IslandsButton.TextWrapped = true
+
+WorldZero_Frame.Name = "WorldZero_Frame"
+WorldZero_Frame.Parent = MenuFrame
+WorldZero_Frame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+WorldZero_Frame.BackgroundTransparency = 1.000
+WorldZero_Frame.Position = UDim2.new(0.0607734807, 0, 0.716417909, 0)
+WorldZero_Frame.Size = UDim2.new(0, 158, 0, 48)
+WorldZero_Frame.Image = "rbxassetid://2790389767"
+WorldZero_Frame.ImageColor3 = Color3.fromRGB(255, 149, 0)
+WorldZero_Frame.ScaleType = Enum.ScaleType.Slice
+WorldZero_Frame.SliceCenter = Rect.new(8, 8, 248, 248)
+
+WorldZeroButton.Name = "WorldZeroButton"
+WorldZeroButton.Parent = WorldZero_Frame
+WorldZeroButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WorldZeroButton.BackgroundTransparency = 1.000
+WorldZeroButton.Size = UDim2.new(0, 158, 0, 48)
+WorldZeroButton.Font = Enum.Font.SourceSansBold
+WorldZeroButton.Text = "WorldZ"
+WorldZeroButton.TextColor3 = Color3.fromRGB(184, 101, 0)
+WorldZeroButton.TextScaled = true
+WorldZeroButton.TextSize = 14.000
+WorldZeroButton.TextWrapped = true
+
+-- Scripts:
+
+local function VIDYR_fake_script() -- KatButton.ColorKat 
+	local script = Instance.new('LocalScript', KatButton)
+
+	script.Parent.MouseEnter:Connect(function()
+	    script.Parent.Parent.KatButton.TextColor3 = Color3.new(0.423529, 0.239216, 0)
+	    script.Parent.Parent.Parent.KAT_Frame.ImageColor3 = Color3.new(0.588235, 0.341176, 0) 
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+	    script.Parent.Parent.KatButton.TextColor3 = Color3.new(0.721569, 0.396078, 0)
+	    script.Parent.Parent.Parent.KAT_Frame.ImageColor3 = Color3.new(1, 0.584314, 0) 
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+	    script.Parent.Parent.KillallButton.Visible = true
+	    loadstring(game:HttpGet(('https://raw.githubusercontent.com/mememasterboi/a-lot-of-scripts/master/Output%20(6).lua'),true))()
+	end)
+end
+coroutine.wrap(VIDYR_fake_script)()
+local function ISNLUTY_fake_script() -- KillallButton.DownTimer 
+	local script = Instance.new('LocalScript', KillallButton)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	    loadstring(game:HttpGet("https://pastebin.com/raw/CbQaxkLZ",true))();
+	    wait()
+	    script.Parent.Text = ("5")
+	    wait(1)
+	    script.Parent.Text = ("4")
+	    wait(1)
+	    script.Parent.Text = ("3")
+	    wait(1)
+	    script.Parent.Text = ("2")
+	    wait(1)
+	    script.Parent.Text = ("1")
+	    wait(1)
+	    script.Parent.Text = ("0")
+	    wait(1)
+	    script.Parent.Text = ("KILL ALL (KAT)")
+	end)
+end
+coroutine.wrap(ISNLUTY_fake_script)()
+local function ISBU_fake_script() -- L2Button.ColorL2 
+	local script = Instance.new('LocalScript', L2Button)
+
+	script.Parent.MouseEnter:Connect(function()
+	    script.Parent.Parent.L2Button.TextColor3 = Color3.new(0.423529, 0.239216, 0)
+	    script.Parent.Parent.Parent.LumberTycoon_Frame.ImageColor3 = Color3.new(0.588235, 0.341176, 0) 
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+	    script.Parent.Parent.L2Button.TextColor3 = Color3.new(0.721569, 0.396078, 0)
+	    script.Parent.Parent.Parent.LumberTycoon_Frame.ImageColor3 = Color3.new(1, 0.584314, 0) 
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+	    loadstring(game:HttpGet'https://raw.githubusercontent.com/0x37Dev/GiftAutobuy/main/script.lua')()
+	    loadstring(game:HttpGet'https://raw.githubusercontent.com/0x37Dev/Cool-Solo-Dupe-Thing/main/script.lua')()
+	end)
+end
+coroutine.wrap(ISBU_fake_script)()
+local function CGYDV_fake_script() -- IslandsButton.ColorIslands 
+	local script = Instance.new('LocalScript', IslandsButton)
+
+	script.Parent.MouseEnter:Connect(function()
+	    script.Parent.Parent.IslandsButton.TextColor3 = Color3.new(0.423529, 0.239216, 0)
+	    script.Parent.Parent.Parent.Islands_Frame.ImageColor3 = Color3.new(0.588235, 0.341176, 0)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+	    script.Parent.Parent.IslandsButton.TextColor3 = Color3.new(0.721569, 0.396078, 0)
+	    script.Parent.Parent.Parent.Islands_Frame.ImageColor3 = Color3.new(1, 0.584314, 0) 
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+	    loadstring(game:HttpGet("http://void-scripts.com/Scripts/islands.lua"))()
+	end)
+end
+coroutine.wrap(CGYDV_fake_script)()
+local function ULDAQ_fake_script() -- WorldZeroButton.ColorWorld 
+	local script = Instance.new('LocalScript', WorldZeroButton)
+
+	script.Parent.MouseEnter:Connect(function()
+	    script.Parent.Parent.WorldZeroButton.TextColor3 = Color3.new(0.423529, 0.239216, 0)
+	    script.Parent.Parent.Parent.WorldZero_Frame.ImageColor3 = Color3.new(0.588235, 0.341176, 0) 
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+	    script.Parent.Parent.WorldZeroButton.TextColor3 = Color3.new(0.721569, 0.396078, 0)
+	    script.Parent.Parent.Parent.WorldZero_Frame.ImageColor3 = Color3.new(1, 0.584314, 0) 
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+	    loadstring(game:HttpGet(('https://pastebin.com/raw/ErqHavQU')))()
+	end)
+end
+coroutine.wrap(ULDAQ_fake_script)()
+local function SHPA_fake_script() -- BarFrame.DraggableAdjustments 
+	local script = Instance.new('LocalScript', BarFrame)
+
+	print("Free source, this code is free but the hub is created by II B3ST II#2338 on discord.")
+	wait(1)
+	print("Make sure to join the discord for further free sources. You might learn something.")
+	wait(1)
+	script.Parent.Parent.BarFrame.Active = true
+	script.Parent.Parent.BarFrame.Draggable = true
+end
+coroutine.wrap(SHPA_fake_script)()
+local function TMHMIG_fake_script() -- BarFrame.TweenService 
+	local script = Instance.new('LocalScript', BarFrame)
+
+	local START_POSITION = UDim2.new(2, 0, 0, 0)
+	local GOAL_POSITION = UDim2.new(0.453, 0, 0.336, 0)
+	
+	local guiObject = script.Parent
+	
+	local function callback(state)
+	    if state == Enum.TweenStatus.Completed then
+	        print("The tween completed uninterrupted")
+	    elseif state == Enum.TweenStatus.Canceled then
+	        print("Another tween cancelled this one")
+	    end
+	end
+	
+	guiObject.Position = START_POSITION
+	local willPlay = guiObject:TweenPosition(
+	    GOAL_POSITION,           -- Final position the tween should reach
+	    Enum.EasingDirection.In, -- Direction of the easing
+	    Enum.EasingStyle.Sine,   -- Kind of easing to apply
+	    2,                       -- Duration of the tween in seconds
+	    true,                    -- Whether in-progress tweens are interrupted
+	    callback                 -- Function to be callled when on completion/cancelation
+	)
+	if willPlay then
+	    print("The tween will play")
+	else
+	    print("The tween will not play")
+	end
+end
+coroutine.wrap(TMHMIG_fake_script)()
